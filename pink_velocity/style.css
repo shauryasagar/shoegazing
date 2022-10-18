@@ -1,0 +1,1769 @@
+section {
+    display: block
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+small {
+    font-size: 3rem
+}
+
+h1 {
+    margin: .67em 0
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000
+}
+
+.button {
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    width: 250px;
+    height: 70px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 greenyellow;
+    transition: ease-out 0.5s;
+    font-size: 1.5rem;
+    outline: none;
+
+    font-family: Pacifico, cursive;
+}
+
+.btn:hover {
+    box-shadow: inset 250px 0 0 0 rgb(123, 255, 0);
+    cursor: pointer;
+    color: black;
+}
+
+.size_c {
+    padding: 3px 20px;
+    border-radius: 10px;
+
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.1rem;
+    background-color: red;
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+.size_c:hover {
+    background-color: greenyellow;
+}
+
+.size_c:hover {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.size_div {
+    padding: 20px;
+    align-items: center;
+}
+
+.size__opts {
+
+    font-family: 'Silkscreen', cursive;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block
+}
+
+.buysec {
+
+
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    overflow: hidden;
+    
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 99px;
+}
+
+h1,
+h3 {
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 40px
+}
+
+.list_type {
+    padding-left: 0;
+    list-style: none
+}
+
+.exclusive_heading {
+
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: #0883ca;
+    padding-top: 150px;
+}
+
+.lmao:after,
+.lmao:before {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2
+}
+
+.lmao:after {
+    clear: both
+}
+
+.grid_all {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px
+}
+
+.grid_all:after,
+.grid_all:before {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2
+}
+
+.grid_all:after {
+    clear: both
+}
+
+@media screen and (max-width:991px) {
+    .grid_all {
+        max-width: 728px
+    }.buysec{
+    display: block;
+    padding-top: 50px;
+    padding-left: 142px;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.size_div{
+    padding-top: 50px;
+}
+}
+
+@media screen and (max-width:479px) {
+    .grid_all {
+        max-width: none
+    }
+.buysec{
+    padding: 0px;
+}
+}
+.w-background-video {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    color: #fff
+}
+
+.navimg {
+    height: 100%;
+    width: 70px
+}
+
+.w-background-video>video {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    bottom: -100%;
+    top: -100%;
+    left: -100%;
+    object-fit: cover;
+    z-index: -100
+}
+
+@media screen and (max-width:767px) {
+    .w-nav-brand {
+        padding-left: 10px
+    }
+}
+
+.w-nav {
+    position: relative;
+    background: #ddd;
+    z-index: 1000
+}
+
+.w-nav:after,
+.w-nav:before {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2
+}
+
+.w-nav:after {
+    clear: both
+}
+
+.w-nav-brand {
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #000
+}
+
+@media screen and (max-width:767px) {
+    .w-nav-brand {
+        padding-left: 10px
+    }
+}
+
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700
+}
+
+.background-video {
+    position: static;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    clear: both;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    -o-object-fit: fill;
+    object-fit: fill
+}
+
+.main {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 74px;
+    padding-bottom: 145px;
+    clear: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    border: 1px #000;
+    background-color: transparent
+}
+
+.body-2 {
+    background-color: #000
+}
+
+.heading {
+    position: static;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: #fffdfd;
+    background-image: none;
+    -webkit-filter: saturate(106%);
+    filter: saturate(106%);
+    outline-offset: 0;
+    outline: #fff 5px;
+    font-family: Avertastd, sans-serif;
+    color: #fff;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: -.5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.main_shoe {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.navdiv1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    margin-top: -1px;
+    background-color: rgba(0, 0, 0, .95);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px)
+}
+
+.navdiv2 {
+    z-index: 5;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 0;
+    background-color: #000;
+    padding-right: 16px;
+    padding-left: 16px
+}
+
+.navdiv3 {
+    width: 100%;
+    max-width: none;
+    min-height: 30px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.nav_li:hover {
+    color: grey;
+    transition: ease-in-out .3s
+}
+
+.div_logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.img_logo {
+    width: 170px
+}
+
+.nav-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.nav_li {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: 1px #000;
+    font-family: Avertastd, sans-serif;
+    color: #adadad;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: uppercase
+}
+
+.nav_li:hover {
+    color: #fff
+}
+
+.text-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Avertastd, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center
+}
+
+.about_div {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 80px 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px #000;
+    background-color: #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0e0e11), to(#000));
+    background-image: linear-gradient(180deg, #0e0e11, #000);
+    font-family: Avertastd, sans-serif
+}
+
+.about_grid {
+    display: -ms-grid;
+    display: grid;
+    max-width: 1240px;
+    margin-top: 0;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    justify-items: stretch;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto
+}
+
+.about_box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #21262b;
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#050e2a), to(#000));
+    background-image: linear-gradient(180deg, #050e2a, #000);
+    text-align: center
+}
+
+.exc_img {
+    height: 200px;
+    max-width: 100%;
+    margin-bottom: 16px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 5px 0 5px
+}
+
+.heading-2 {
+    font-family: Avertastd, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 0;
+    font-weight: 600;
+    letter-spacing: -.4px
+}
+
+.title_exc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 750px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-left: auto;
+    padding-bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center
+}
+
+.big_text_heading {
+    margin-top: 96px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    font-family: Avertastd, sans-serif;
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: center
+}
+
+.exclusive_div {
+    position: relative;
+    padding: 150px 30px 120px;
+    border: 1px #000;
+    background-color: #040618;
+    background-image: url(https://assets.website-files.com/630c8a04ef122174d27acf30/6314dbf4553f41b830045dec_bg.svg), linear-gradient(180deg, #040618, #000);
+    background-position: 50% 95%, 0 0;
+    background-size: auto, auto;
+    background-repeat: repeat-x, repeat;
+    -o-object-fit: fill;
+    object-fit: fill
+}
+
+.contain {
+    display: block;
+    width: 100%;
+    max-width: 1366px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: both;
+    background-color: transparent
+}
+
+.section {
+    margin-top: 0;
+    padding-top: 120px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000d38), to(#000));
+    background-image: linear-gradient(180deg, #000d38, #000)
+}
+
+.about_box_ {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition: transform .5s
+}
+
+.about_box_:hover {
+    transform: scale(1.11);
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px #00f
+}
+
+.foot {
+    position: relative;
+    padding: 50px 30px 40px;
+    border: 1px #000;
+    outline-offset: 0;
+    outline: #000 3px
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #1e2227
+}
+
+.contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.madeby {
+    font-family: Avertastd, sans-serif;
+    color: #60666d
+}
+
+.image-13 {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.foot_logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.all_shoes {
+    max-width: 1240px;
+    margin-bottom: 100px
+}
+
+.grid-3 {
+    margin-top: 80px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0
+}
+
+.item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 220px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background-position: 0 0, 0 0, 0 0;
+    background-size: auto, cover, auto
+}
+
+.item._2 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-2.jpg), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._1 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoe-1.jpg), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+    background-position: 0 0, 0 0, 0 0;
+    background-size: auto, cover, auto;
+    transition: all 2s;
+}
+
+.item._1:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(https://m.media-amazon.com/images/I/8138e1P39oL._UY695_.jpg);
+    background-position: 0 0, 0 0;
+    background-size: 80px, cover
+}
+
+.item._2:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(https://m.media-amazon.com/images/I/81DXi2otz2L._UX575_.jpg);
+    background-position: 0 0, 0 0;
+    background-size: auto, cover
+}
+
+.item._3 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-3.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._3:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-3h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._4 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-4.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._4:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoe-4h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._5 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-5.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._5:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-5h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._6 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-6.jpg), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._6:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(https://m.media-amazon.com/images/I/81PQ75zqSzL._UX695_.jpg);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._7 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-7.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._7:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-7h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._8 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-8.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._8:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-8h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._9 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-9.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._9:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-9h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._10 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-10.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._10:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-10h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._11 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-11.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._11:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-11h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._12 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-12.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._12:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-12h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._13 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-13.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._13:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-13h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._14 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-14.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._14:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-14h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._15 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-15.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._15:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-15h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._16 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-16.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._16:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-16h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._17 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-17.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._17:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-17h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.item._18 {
+    border-radius: 16px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-18.png), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff))
+}
+
+.item._18:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-18h.png);
+    background-position: 100pxpx 0, 0 0;
+    background-size: 80%, 100%
+}
+
+.shoename {
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    font-family: Avertastd, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -.2px
+}
+
+.shoeprice {
+    overflow: visible;
+    margin-top: 0;
+    font-family: Avertastd, sans-serif;
+    color: #db7035;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none
+}
+
+.shoeprice._1 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    padding-top: 0
+}
+
+.shoeprice._2 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    padding-top: 0;
+    color: #14bba8
+}
+
+.shoeprice._3 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    padding-top: 0;
+    color: #9084ff
+}
+
+.shoeprice._4 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #af9246
+}
+
+.shoeprice._5 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #c0448d
+}
+
+.shoeprice._6 {
+    margin-top: 4px;
+    margin-bottom: -40px
+}
+
+.shoeprice._7 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #14bba8
+}
+
+.shoeprice._8 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #9084ff
+}
+
+.shoeprice._9 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #dd3c44
+}
+
+.shoeprice._10 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #84ffda
+}
+
+.shoeprice._11 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #c4e218
+}
+
+.shoeprice._12 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #d827ac
+}
+
+.shoeprice._13 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #70f
+}
+
+.shoeprice._14 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #f85b00
+}
+
+.shoeprice._15 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #0084ff
+}
+
+.shoeprice._16 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #00ff6a
+}
+
+.shoeprice._17 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #ff00aa
+}
+
+.shoeprice._18 {
+    margin-top: 4px;
+    margin-bottom: -40px;
+    color: #d2dd3b
+}
+
+.link-block {
+    width: 100%;
+    height: 280px;
+    text-decoration: none
+}
+
+.link-block:hover {
+    opacity: 1;
+    outline-offset: 0;
+    outline: #00e 3px;
+    mix-blend-mode: normal
+}
+
+.link-block._1:hover {
+    border: 1px #000;
+    outline-offset: 0;
+    outline: #00e 3px
+}
+
+.all_item {
+    height: 280px;
+    border: 1px #000;
+    border-radius: 16px;
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%)
+}
+
+.all_item:hover {
+    border: 1px #c5c5c5;
+    -webkit-filter: none;
+    filter: none;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-perspective: 1392px;
+    perspective: 1392px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.list {
+    padding-left: 0;
+    list-style-type: none
+}
+
+@media screen and (max-width:991px) {
+    .heading {
+        margin-right: 40px;
+        margin-left: 40px
+    }
+
+    .navdiv2 {
+        padding-right: 16px;
+        padding-left: 16px
+    }
+
+    .nav-menu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-left: 0;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #000
+    }
+
+    .nav_li {
+        padding-right: 5px;
+        padding-left: 5px
+    }
+
+    .about_div {
+        padding-right: 32px;
+        padding-left: 32px
+    }
+
+    .about_grid {
+        grid-column-gap: 16px;
+        grid-row-gap: 16px
+    }
+
+    heading-2 {
+        padding-bottom: 16px;
+        font-size: 18px
+    }
+
+    .title_exc {
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .big_text_heading {
+        display: block;
+        margin-bottom: 32px;
+        padding-right: 20px;
+        padding-bottom: 0;
+        padding-left: 20px;
+        font-size: 46px;
+        text-align: center
+    }
+
+    .exclusive_div {
+        padding-right: 0;
+        padding-bottom: 80px;
+        padding-left: 0
+    }
+
+    .contain {
+        max-width: 728px
+    }
+
+    .section {
+        padding-top: 80px
+    }
+
+    .grid-3 {
+        margin-right: 32px;
+        margin-left: 32px
+    }
+
+    .item._1,
+    .item._2,
+    .item._3,
+    .item._4,
+    .item._5,
+    .item._6,
+    .item._7,
+    .item._8 {
+        background-position: 0 0, 50% 50%, 0 0
+    }
+
+    .shoename {
+        padding-bottom: 0;
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main {
+        position: relative
+    }
+
+    .img_logo {
+        width: 40px;
+        padding-left: 0
+    }
+
+    .nav-menu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-bottom: 0;
+        padding-left: 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .nav_li {
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    .about_div {
+        padding: 60px 15px 48px
+    }
+
+    .about_box {
+        padding-bottom: 32px;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .heading-2 {
+        padding-top: 15px;
+        padding-bottom: 4px
+    }
+
+    .title_exc {
+        width: 100%
+    }
+
+    .big_text_heading {
+        font-size: 40px;
+        line-height: 47px
+    }
+
+    .exclusive_div {
+        padding: 60px 16px
+    }
+
+    .section {
+        padding-top: 48px
+    }
+
+    .foot {
+        padding-right: 15px;
+        padding-left: 15px
+    }
+
+    .contact {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .madeby {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .shoename {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .shoeprice._1 {
+        font-size: 16px
+    }
+
+    .discordo {
+        height: auto;
+        width: 50%
+    }
+
+    .discordo img {
+        width: 100%
+    }
+
+    @media screen and (max-width:479px) {
+        .main {
+            padding-top: 64px
+        }
+
+        .exclusive_heading {
+            padding-top: 50px;
+        }
+
+        .body-2 {
+            display: block
+        }
+
+        .heading {
+            margin-right: 24px;
+            margin-left: 24px;
+            padding-right: 16px;
+            padding-left: 16px;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -.5px
+        }
+
+        .main_shoe {
+            width: 100%;
+            height: 90px;
+            margin-right: auto;
+            margin-left: auto
+        }
+
+        .main_shoe.small {
+            width: auto;
+            height: auto;
+            -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-transform: scale(.7);
+            -ms-transform: scale(.7);
+            transform: scale(.7)
+        }
+
+        .nav-menu {
+            display: none;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-flex: 0;
+            -webkit-flex: 0 auto;
+            -ms-flex: 0 auto;
+            flex: 0 auto;
+            opacity: 1
+        }
+
+        .text-block {
+            font-size: 14px
+        }
+
+        .about_div {
+            padding: 48px 16px 0
+        }
+
+        .about_grid {
+            grid-column-gap: 24px;
+            grid-row-gap: 24px;
+            -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr
+        }
+
+        .about_box {
+            padding-top: 32px;
+            padding-bottom: 32px
+        }
+
+        .exc_img {
+            margin-bottom: 0
+        }
+
+        .title_exc {
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 0
+        }
+
+        .big_text_heading {
+            margin-top: 24px;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: -.2px
+        }
+
+        .exclusive_div {
+            padding-top: 32px;
+            padding-bottom: 56px;
+            background-position: 50% 180%, 0 0;
+            background-size: 790px 760px, auto;
+            background-repeat: repeat-x, repeat
+        }
+
+    }
+
+    .contacts {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .contain {
+        max-width: none
+    }
+
+    @media screen and (max-width:540px) {
+        .nav_li {
+            padding: 0
+        }
+        .buysec{
+            padding: 10px;
+        }
+        .size_div{
+            padding-top: 50px;
+        }
+    }
+
+    .section {
+        margin-top: 0;
+        padding-top: 40px
+    }
+
+    .contact {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 19px;
+        grid-row-gap: 19px
+    }
+
+    .all_shoes {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 100%;
+        margin: -58px auto 80px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 0;
+        grid-row-gap: 0
+    }
+
+    .grid-3 {
+        display: block;
+        overflow: visible;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 16px;
+        padding-bottom: 0;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+        flex: 0 auto
+    }
+
+    .item._2 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-2.jpg);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._1 {
+        width: 100%;
+        height: 220px;
+        margin-right: auto;
+        margin-left: auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoe-1.jpg);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._1:hover {
+        background-position: 0 0, 50% 50%
+    }
+
+    .item._3 {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-3.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._4 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-4.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._5 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-5.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._6 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-6.jpg);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._7 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-7.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._8 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-8.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._9 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-9.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._10 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-10.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._11 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-11.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._12 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-12.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._13 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-13.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._14 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-14.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._15 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-15.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._16 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-16.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._17 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-17.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .item._18 {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(#000)), url(shoes-18.png);
+        background-position: 0 0, 50% 50%;
+        background-size: auto, cover
+    }
+
+    .shoename {
+        padding-bottom: 4px;
+        font-size: 20px
+    }
+
+    .link-block._1 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 16px;
+        padding-bottom: 0;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        -ms-grid-row-align: auto;
+        align-self: auto;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 auto;
+        -ms-flex: 0 auto;
+        flex: 0 auto
+    }
+
+    .all_item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        min-width: 100%;
+        margin-right: auto;
+        margin-bottom: 24px;
+        margin-left: auto;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+}
